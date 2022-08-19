@@ -25,7 +25,7 @@ AddEventHandler("NAT2K15:CHECKSQL", function(steam, discord, first_name, last_na
       exports.npwd:newPlayer({
         source = src,
         phoneNumber = response[1].phone_number,
-        identifier = first_name,
+        identifier = response[1].id,
         firstname = response[1].first_name,
         lastname = response[1].last_name
       })
