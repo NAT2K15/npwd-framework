@@ -1,5 +1,5 @@
 # nwpd-framework
-We have made the [https://github.com/project-error/npwd](nwpd) compatible with our Frameworks. 
+We have made the [https://github.com/project-error/npwd](https://github.com/project-error/npwd) compatible with our Frameworks. 
 
 ## Setup
 - Download the script and upload it into your server like any other resource.
