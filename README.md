@@ -1,4 +1,4 @@
-# nwpd-framework
+# npwd-framework
 We have made the [https://github.com/project-error/npwd](https://github.com/project-error/npwd) compatible with our Frameworks. 
 
 ## Setup
