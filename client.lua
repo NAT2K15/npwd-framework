@@ -1,0 +1,13 @@
+AddEventHandler('npwd:PhotoModeStarted', function()
+    LocalPlayer.state:set('pictureMode', true, true)
+    DisplayRadar(false)
+    RemoveMultiplayerHudCash()
+    RemoveMultiplayerBankCash()
+    DisplayHud(false)
+end)
+
+AddEventHandler('npwd:PhotoModeEnded', function ()
+    LocalPlayer.state:set('pictureMode', false, true)
+    DisplayRadar(true)
+    DisplayHud(true)
+end)
