@@ -1,7 +1,9 @@
+local Framework = exports[config.framework]:getServerFunctions()
+
 RegisterNetEvent("NAT2K15:GETCHARCTERS")
 AddEventHandler("NAT2K15:GETCHARCTERS", function()
   local src = source
-  local player = exports[config.framework]:getdept(src)
+  local player = Framework.getPlayer(src)
   if(player) then
     exports.npwd:unloadPlayer(src)
   end
